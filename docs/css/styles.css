@@ -47,7 +47,8 @@ header {
 }
 
 nav {
-  background-image: url("/home/adri/Documents/Web_Desing/Ejemplo/z-pictures/di.png");
+  background: #821752;
+  background-image: url("../pictures/f1.png");
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -55,7 +56,8 @@ nav {
 
 @media (max-width: 600px) {
   nav {
-    background-image: url("/home/adri/Documents/Web_Desing/Ejemplo/z-pictures/di2.png");
+    background: #cd0a0a;
+    background-image: url("../pictures/f2.png");
     flex-direction: column;
   }
 
