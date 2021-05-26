@@ -1,0 +1,18 @@
+@mixin cuadro ($fondo,$ancho:200px){
+    background-color: $fondo;
+    width: $ancho;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+// @include cuadro(#f9c0c0, 200px);
+
+@mixin renglon ($fondo:none, $cletra:black) {
+
+    background-color: $fondo;
+    color: $cletra;
+    display: flex;
+    justify-content: center;
+    
+}

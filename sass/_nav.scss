@@ -1,0 +1,38 @@
+.nav-enlace {
+    display: inline-block;
+    background: $color16;
+    color: $color17;
+    border-radius: 30%;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover {
+    background: $color9;
+    color: aliceblue;
+}
+
+nav{
+    // background: $color7;
+    background-image: url("/home/adri/Documents/Web_Desing/Ejemplo/z-pictures/di.png");
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width: 600px){
+    nav{
+        // background: $color10;
+        background-image: url("/home/adri/Documents/Web_Desing/Ejemplo/z-pictures/di2.png");
+        flex-direction: column;
+    }
+
+    .nav-enlace{
+        background: $color18;
+        color: $color17;
+        display: flex;
+        justify-content: center;
+        border-radius: 10%;
+        margin: 10px 0px;
+    }
+}

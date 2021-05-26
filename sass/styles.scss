@@ -1,0 +1,58 @@
+@import "colors";
+@import "footer";
+@import "header";
+@import "mixin";
+@import "nav";
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #ffc93c;
+    color: #962d2d;
+
+    .log{
+        height: 70px;
+    }
+}
+
+.inicio{
+
+    @include renglon(#caf7e3,#005792);
+}
+
+.half{
+    
+    #tienda{
+        width: 100%;
+        height: auto;
+    }
+}
+
+footer{
+    a{
+        margin: 10px;
+        color: gainsboro;
+        text-decoration: none;
+    }
+
+    #Face{
+
+        height: 40px;
+    }
+
+    #Insta{
+        height: 50px;
+    }
+
+    #Twit{
+        height: 40px;
+    }
+
+    #Whats{
+        height: 40px;
+    }
+}
